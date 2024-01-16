@@ -11,3 +11,5 @@ $db = (new Database())->getConnection();
 // Simple Routing (Expand as per requirement)
 $router = new Router();
 $router->routeRequest();
+
+echo "Hello, this is the index.php file!";
